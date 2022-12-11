@@ -1,0 +1,21 @@
+{
+  "name": "hero",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A Simple HTTP Server Built With NodeJS",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "Nodemon",
+    "NodeJS"
+  ],
+  "author": "Foss",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "nodemon": "^2.0.20"
+  }
+}
